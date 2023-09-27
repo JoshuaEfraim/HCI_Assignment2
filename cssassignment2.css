@@ -1,0 +1,124 @@
+body {
+    width: 100%;
+    margin: 0;
+    background-image: url('idk.png');
+    color: #000000d4;
+    font-family: 'Times New Roman';
+    font-size: 16px;
+}
+
+h1, p {
+    margin: 1em auto;
+    text-align: center;
+    color: white;
+}
+
+label {
+    display: inline-block;
+    width: 150px;
+}
+
+form {
+    width: 80vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+    position: relative; 
+    background-color: rgba(255, 255, 255, 0.8); 
+}
+
+table {
+    width: 100%;
+}
+
+input[type="text"], input[type="email"] {
+    width: 460px;
+}
+#age {
+    width: 460px;
+}
+
+input[type="radio"] {
+    margin: 8px;
+}
+
+.container {
+    width: 80vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+}
+
+
+form::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.2); 
+    filter: blur(25px); 
+    z-index: -1;
+}
+.first {
+    margin-left: auto;
+    margin-right: auto;
+    align-content: left;
+    text-align: center;
+    width: 98.5%
+}
+textarea {
+    align-content: left;
+    text-align: left;
+    margin-left: 0;
+    width: 90%;
+    height: 100%
+}
+#Rating {
+    width: 100px;
+}
+label[for="proof"], label[for="rating"] {
+    font-size: 13px
+}
+
+#proof {
+    font-size: 11px;
+}
+
+input[type="submit"] {
+    display: block;
+    width: 60%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: #8585e395;
+    border-color: white;
+    min-width: 300px;
+  }
+.good {
+    color:black;
+}
+
+label[for^="level"] {
+    display:inline-block;
+    width:auto;
+}
+
+input[type="checkbox"] 
+{
+    vertical-align: middle;
+    margin-right: 3px;
+    margin-left:7px;
+}
+label[for="calendar"] {
+    align-content: center;
+    text-align: center;   
+    font-size: 18px;
+}
+
+.language label {
+    font-size: 14px;
+}

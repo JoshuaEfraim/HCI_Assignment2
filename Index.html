@@ -1,0 +1,186 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>How Good Are You?</title>
+        <link rel="stylesheet" 
+        type="text/css" href="cssassignment2.css">
+    </head>
+    <body>
+        <h1>How Good Are You at Coding?</h1>
+        <div class="container"> 
+            <div class="blur background">
+                <form id="survey-form">
+                    <table>
+                        <tr>
+                            <td>
+                                <fieldset>
+                                    <legend>Personal Information</legend>
+                                    <label for="name">Your Name: <input id="name" type="text"
+                                        required/></label><br>
+                                    <label for="age">Your Age: <input id="age" type="number" min="13"
+                                        max="120"  required/></label><br>
+                                    <label for="email">Your email: <input id="email" type="email"
+                                        required/></label><br>
+                                    <label for="number">Your number: +62 <input id="number" class="contact" type="text"
+                                        required/></label><br>
+                                    <label for="university">Your University:  <input id="university" type="text"
+                                        required/></label><br>
+                                </fieldset>
+                            </td>
+                        </tr>
+                        <table>
+                        <tr>
+                            <td>
+                                <fieldset>
+                                    <legend>What is your favourite 
+                                    programming language?</legend>
+                                    <label for="python"><input type="radio" id="python" name="coding" 
+                                    class="inline"/>Python</label>
+                                    <br>
+                                    <label for="html"><input type="radio" id="html" name="coding" 
+                                        class="inline"/>Html</label>
+                                    <br>
+                                    <label for="java"><input type="radio" id="java" name="coding" 
+                                        class="inline"/>Java</label>
+                                    <br>
+                                    <label for="javascript"><input type="radio" id="javascript" name="coding" 
+                                        class="inline"/>Javascript</label>
+                                    <br>
+                                    <label for="C++"><input type="radio" id="C++" name="coding" 
+                                        class="inline"/>C++</label>
+                                    <br>
+                                    <label for="C#"><input type="radio" id="C#" name="coding" 
+                                        class="inline"/>C#</label>
+                                    <br>
+                                    <label for="others"><input type="radio" id="others" name="coding" 
+                                        class="inline"/>others</label>
+                                </fieldset>
+                            </td>
+                        </tr>
+                        </table>
+                        <table border="1" class="language">
+                        <tr>
+                            <td>
+                                <label for="calendar">When did you start coding?:</label>
+<input type="date" id="calendar" name="calendar">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>What is your level of skill for each programming languages?</td>
+                            <tr>
+                                <td>
+                                    <label for="level">Python:</label>
+                                    <input type="checkbox" class="level" name="python" 
+                                    value="beginner">
+                                    <label for="level-beginner">Beginner</label>
+                                    <input type="checkbox" class="level" name="python" 
+                                    value="intermediate">
+                                    <label for="level-intermediate">Intermediate</label>
+                                    <input type="checkbox" class="level" name="python" 
+                                    value="advanced">
+                                    <label for="level-advanced">Advanced</label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label for="level">HTML:</label>
+                                    <input type="checkbox" class="level" name="html" 
+                                    value="beginner">
+                                    <label for="level-beginner">Beginner</label>
+                                    <input type="checkbox" class="level" name="html" 
+                                    value="intermediate">
+                                    <label for="level-intermediate">Intermediate</label>
+                                    <input type="checkbox" class="level" name="html"
+                                    value="advanced">
+                                    <label for="level-advanced">Advanced</label>
+                                </td>
+                            </tr>
+                            
+                            <tr>
+                                <td>
+                                    <label for="level">Java:</label>
+                                    <input type="checkbox" class="level" name="java" 
+                                    value="beginner">
+                                    <label for="level-beginner">Beginner</label>
+                                    <input type="checkbox" class="level" name="java" 
+                                    value="intermediate">
+                                    <label for="level-intermediate">Intermediate</label>
+                                    <input type="checkbox" class="level" name="java-" 
+                                    value="advanced">
+                                    <label for="level-advanced">Advanced</label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label for="level">JavaScript:</label>
+                                    <input type="checkbox" class="level" name="javascript" 
+                                    value="beginner">
+                                    <label for="level-beginner">Beginner</label>
+                                    <input type="checkbox" class="level" name="javascript" 
+                                    value="intermediate">
+                                    <label for="level-intermediate">Intermediate</label>
+                                    <input type="checkbox" class="level" name="javascript" 
+                                    value="advanced">
+                                    <label for="level-advanced">Advanced</label>
+                                </td>
+                            </tr>
+                            
+                            <tr>
+                                <td>
+                                    <label for="level">C++:</label>
+                                    <input type="checkbox" class="level" name="cpp" 
+                                    value="beginner">
+                                    <label for="level-beginner">Beginner</label>
+                                    <input type="checkbox" class="level" name="cpp" 
+                                    value="intermediate">
+                                    <label for="level-intermediate">Intermediate</label>
+                                    <input type="checkbox" class="level" name="cpp" 
+                                    value="advanced">
+                                    <label for="cpp-level-advanced">Advanced</label>
+                                </td>
+                            </tr>
+                            
+                            <tr>
+                                <td>
+                                    <label for="level">C#:</label>
+                                    <input type="checkbox" class="level" name="csharp" 
+                                    value="beginner">
+                                    <label for="level-beginner">Beginner</label>
+                                    <input type="checkbox" class="level" name="csharp" 
+                                    value="intermediate">
+                                    <label for="level-intermediate">Intermediate</label>
+                                    <input type="checkbox" class="level" name="csharp" 
+                                    value="advanced">
+                                    <label for="level-advanced">Advanced</label>
+                                </td>
+                            </tr>
+                        </tr>
+                    </table>
+                      
+                        </table>
+                        </tr>
+                        <table border="1" class="first">
+                        <tr>
+                            <td colspan="2">Tell us more about how good you are!</td>
+                          </tr>
+                          <tr>
+                            <td rowspan="2"><textarea id="proof" rows="3" cols="45" placeholder="Share your experience here.."></textarea></td>
+                            <td><label for="rating">Rate yourself from 1-10<input id="Rating" type="number" class="rating
+                                " name="rating" min="1" max="10" required/></label></td>
+                          </tr>
+                          <tr>
+                            <td><label for="proof">Send us your best works!<input id="proof" type="file" name="file" /></label></td>
+                          </tr>
+                          
+                        </tr>
+                        </table>
+                    </table>
+                    <p class="good">click submit to know how good you are!</p>
+                    <input type="submit" value="Submit" />
+                </form>
+            </div>
+        </div>
+    </body>
+    </html>
